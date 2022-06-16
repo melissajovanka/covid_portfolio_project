@@ -1,3 +1,9 @@
+/*
+
+COVID-19 Infections Code
+    */
+
+
 -- Global COVID-19 Incidence Rate:
 
 SELECT 
