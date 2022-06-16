@@ -11,7 +11,7 @@ This code is a work in progress and will be regularly updated.
 
 ## Visualizations
 
-# COVID_19 Infections:
+### COVID_19 Infections:
 
 https://public.tableau.com/views/covid_infections_1_of_2/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
