@@ -1,3 +1,7 @@
+/*
+COVID-19 Deaths Code
+    */
+
 -- Global Death Percentage:
 
 WITH gobal_deaths (total_infections, total_deaths)
