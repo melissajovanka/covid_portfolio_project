@@ -1,7 +1,5 @@
 /*
-
 COVID-19 Infections Code
-
     */
 
 
