@@ -36,8 +36,8 @@ AS(
 SELECT 
     SUM(new_cases) AS total_cases,
     SUM(new_deaths) AS total_deaths,
-	MAX(population) AS highest_population,
-	date
+    MAX(population) AS highest_population,
+    date
 FROM
     public.covid_death
 WHERE
