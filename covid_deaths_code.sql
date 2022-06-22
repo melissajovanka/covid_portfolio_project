@@ -4,7 +4,7 @@ COVID-19 Deaths Code
 
 -- Global Death Percentage:
 
-WITH gobal_deaths (total_infections, total_deaths)
+WITH gobal_deaths (total_cases, total_deaths)
 AS(
 SELECT 
     SUM(new_cases) AS total_infections,
@@ -13,7 +13,7 @@ FROM
     public.covid_death
 WHERE
     continent IS NOT NULL
-ORDER BY total_infections
+ORDER BY total_cases
 	)
 	SELECT *, (total_deaths / total_infections)*100 AS global_death_percentage
 	FROM gobal_deaths;
