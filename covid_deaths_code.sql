@@ -15,15 +15,3 @@ ORDER BY total_infections
 	FROM gobal_deaths;
 
 
--- Death Rates over time:
-
--- Death Rates per Continent:
-
--- Death Rates per Country:
-
--- Comorbidity Related Deaths:
-
--- Deaths per Age Globally:
-
--- Deaths per Age per Continent: 
-
