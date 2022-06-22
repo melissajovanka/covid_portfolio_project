@@ -13,6 +13,5 @@ This code is a work in progress and will be regularly updated.
 
 ### COVID-19 Infections:
 
-#### Part 1 of 2:
-https://public.tableau.com/views/covid_infections_1_of_2/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/app/profile/melissa.jovanka.gassman/viz/covid_infections/Dashboard5
 
