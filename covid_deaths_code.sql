@@ -71,4 +71,3 @@ WHERE
     continent IS NOT NULL
 GROUP BY location
 ORDER BY total_deaths DESC;
-
