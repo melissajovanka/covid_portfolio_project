@@ -29,6 +29,17 @@ WHERE
 GROUP BY date
 ORDER BY total_deaths DESC;
 
+-- Global COVID-19 Deaths versus COVID-19 Infections Over Time:
+
+SELECT 
+    date, MAX(total_deaths) AS total_deaths, MAX(total_cases) AS total_infections
+FROM
+    public.covid_death
+WHERE
+    continent IS NOT NULL
+GROUP BY date
+ORDER BY total_deaths DESC;
+
 -- Total COVID-19 Infection Percentage versus Total COVID-19 Death Percentage per Year:
 
 WITH gobal_deaths (total_cases, total_deaths, highest_population, date)
