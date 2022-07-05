@@ -56,7 +56,7 @@ WHERE
 	GROUP BY date
 ORDER BY total_cases
 	)
-	SELECT date, (total_deaths / total_cases)*100 AS global_death_percentage, 
+	SELECT date, (total_deaths / highest_population)*100 AS global_death_percentage, 
 	(total_cases/ highest_population)*100 AS global_infection_percentage
 	FROM gobal_deaths;
 
