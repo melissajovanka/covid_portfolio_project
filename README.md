@@ -13,8 +13,8 @@ This code is a work in progress and will be regularly updated.
 
 ### COVID-19 Infections:
 
-https://public.tableau.com/app/profile/melissa.jovanka.gassman/viz/covid_infections/Dashboard5
+https://public.tableau.com/views/COVID-19INFECTIONS/Dashboard5?:language=en-US&:display_count=n&:origin=viz_share_link
 
 ### COVID-19 Deaths:
 
-https://public.tableau.com/views/COVID_19_DEATHS/Dashboard5?:language=en-US&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/COVID-19DEATHS_16570543436130/Dashboard5?:language=en-US&:display_count=n&:origin=viz_share_link
