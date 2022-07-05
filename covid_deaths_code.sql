@@ -83,7 +83,7 @@ WHERE
 GROUP BY location
 ORDER BY total_deaths DESC;
 
---Total COVID-19 Deaths per Income:
+--Percentage of COVID-19 Deaths per Income:
 
 SELECT 
     location,
