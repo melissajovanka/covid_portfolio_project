@@ -82,3 +82,17 @@ WHERE
     continent IS NOT NULL
 GROUP BY location
 ORDER BY total_deaths DESC;
+
+--Total COVID-19 Deaths per Income:
+
+SELECT 
+    location,
+    MAX(total_deaths) / MAX(total_cases) * 100 AS percentage_of_deaths_per_income
+FROM
+    public.covid_death
+WHERE
+    location IN ('High income' , 'Upper middle income',
+        'Lower middle income',
+        'Low income')
+GROUP BY location
+ORDER BY percentage_of_deaths_per_income DESC;
