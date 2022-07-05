@@ -15,3 +15,6 @@ This code is a work in progress and will be regularly updated.
 
 https://public.tableau.com/app/profile/melissa.jovanka.gassman/viz/covid_infections/Dashboard5
 
+### COVID-19 Deaths:
+
+https://public.tableau.com/views/COVID_19_DEATHS/Dashboard5?:language=en-US&:display_count=n&:origin=viz_share_link
