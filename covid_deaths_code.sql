@@ -4,7 +4,7 @@ COVID-19 Deaths Code
 
 -- Global Death Percentage:
 
-WITH gobal_deaths (total_cases, total_deaths)
+WITH global_deaths (total_cases, total_deaths)
 AS(
 SELECT 
     SUM(new_cases) AS total_infections,
@@ -16,7 +16,7 @@ WHERE
 ORDER BY total_cases
 	)
 	SELECT *, (total_deaths / total_infections)*100 AS global_death_percentage
-	FROM gobal_deaths;
+	FROM global_deaths;
 
 -- Global COVID-19 Deaths Over Time:
 
@@ -42,7 +42,7 @@ ORDER BY total_deaths DESC;
 
 -- Total COVID-19 Infection Percentage versus Total COVID-19 Death Percentage per Year:
 
-WITH gobal_deaths (total_cases, total_deaths, highest_population, date)
+WITH global_deaths (total_cases, total_deaths, highest_population, date)
 AS(
 SELECT 
     SUM(new_cases) AS total_cases,
@@ -58,7 +58,7 @@ ORDER BY total_cases
 	)
 	SELECT date, (total_deaths / highest_population)*100 AS global_death_percentage, 
 	(total_cases/ highest_population)*100 AS global_infection_percentage
-	FROM gobal_deaths;
+	FROM global_deaths;
 
 -- Total COVID-19 Deaths per Continent:
 
